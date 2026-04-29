@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>FirstHTML</title>
+    </head>
+<body>
+
+<h1 id="title">Welcome to Dashboard</h1>
+
+<label for="username">Username</label>
+<input type="text" id="username">
+
+<label for="pass">Password</label>
+<input type="password" id="pass">
+
+<button>Submit</button>
+
+<a id="logout">Logout</a>
+
+</body>
+</html>
+
+
+<!-- 
+test.skip('Firstprogram', async({page})=>{
+    await page.goto("http://127.0.0.1:5500/tests/practice.html")
+
+    await expect(page).toHaveURL("http://127.0.0.1:5500/tests/practice.html")
+
+    await expect(page).toHaveTitle('FirstHTML')
+
+    await page.getByRole('textbox',{name:'username'}).fill("test")
+
+    await page.getByRole('textbox',{name:'pass'}).fill("test@123")
+
+    await page.getByRole('button', {name:'Submit'}).click()
+
+    await expect(await page.getByRole('link', {name:'Logout'})).toHaveText('Logout')
+
+    await page.waitForTimeout(3000)
+})
+
+-->
